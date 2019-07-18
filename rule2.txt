@@ -1,0 +1,2 @@
+(?u ns:contactTo ?s) (?u ns:hasRole ns:IncidentShipMaster) (?u ns:isMemberOf ?i) (?s ns:hasMedicalItem ?m) -> (?s ns:belongsTo ns:Category_1)
+(?u ns:contactTo ?s) (?u ns:hasRole ns:IncidentShipMaster) (?u ns:isMemberOf ?i) (?s ns:hasCommunicationItem ns:Email) -> (?u ns:hasResponse ns:Approve)
